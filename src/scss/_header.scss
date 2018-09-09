@@ -3,11 +3,10 @@ $sidePadding: 0.8rem;
 
 header.center {
     color: $white;
-    vertical-align: center;
     padding-top: 30vh;
 
-    @media screen and (max-width: 576px) {
-        padding-top: 30vh;
+    @media screen and (max-height: 500px) {
+        padding-top: 10vh;
     }
 
     .info {

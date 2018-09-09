@@ -1,5 +1,8 @@
 /* Article Card Carousel */
 .article-card-carousel {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+
     .slick-track {
         display: flex;
 
@@ -13,16 +16,19 @@
         border-radius: 0;
         box-shadow: none;
         border-color: $grey;
-        width: 15rem;
         margin-left: 0.5rem;
         margin-right: 0.5rem;
+
+        @media screen and (max-width: 500px) {
+            margin-left: 15px;
+            margin-right: 15px;
+        }
 
         .card-title {
             a {
                 color: $black;
-                :hover {
 
-                }
+                :hover {}
             }
         }
 
@@ -36,6 +42,7 @@
         .byline {
             font-weight: normal;
             font-size: 0.7rem;
+
             .byline-name {
                 font-weight: bold;
                 text-transform: uppercase;

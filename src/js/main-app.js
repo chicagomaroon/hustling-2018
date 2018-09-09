@@ -36,6 +36,7 @@ $(document).ready(function () {
 
     centerMode: true,
     slidesToScroll: 1,
+    swipeToSlide: true,
     autoplay: true,
     autoplaySpeed: 2000,
     nextArrow: false,
@@ -53,9 +54,22 @@ $(document).ready(function () {
         },
       },
       {
+        breakpoint: 1000,
+        settings: {
+          slidesToShow: 2,
+        },
+      },
+      {
         breakpoint: 800,
         settings: {
           slidesToShow: 2,
+          centerMode: false,
+        },
+      },
+      {
+        breakpoint: 600,
+        settings: {
+          slidesToShow: 1,
         },
       },
       {

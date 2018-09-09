@@ -1,6 +1,7 @@
 .hero-header {
     background-size: cover;
     min-height: calc(100vh - #{$navbarHeight});
+    margin-bottom: 2rem;
 }
 
 .scroll-indicator {
