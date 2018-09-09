@@ -1,0 +1,34 @@
+.hero-header {
+    background-size: cover;
+    min-height: calc(100vh - #{$navbarHeight});
+}
+
+.scroll-indicator {
+    &::before {
+        content: '⌄';
+        color: #fff;
+        position: absolute;
+        opacity: 0.7;
+        text-shadow: 0 0 6px rgba(0, 0, 0, 0.5);
+        font-size: 5rem;
+        width: 60px;
+        height: 40px;
+        line-height: 40px;
+        text-align: center;
+        border-radius: 10px;
+        bottom: 30px;
+        left: 50%;
+        margin-left: -30px;
+        animation: bounce 1s ease infinite;
+    }
+
+    @keyframes bounce {
+        50% {
+            transform: translateY(-25%);
+        }
+
+        100% {
+            transform: translateY(0);
+        }
+    }
+}

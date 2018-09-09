@@ -1,0 +1,38 @@
+{
+  "id": "7834236416",
+  "publishPath": "article/2018/hustling-2018/",
+  "stagingUrl": "https://stage-projects.chicagomaroon.com/article/2018/hustling-2018/",
+  "url": "https://projects.chicagomaroon.com/article/2018/hustling-2018/",
+  "timestamp": "1996-09-06T08:13-0400",
+  "dateline": "September 6, 1996",
+  "header": {
+    "headline": "This is your headline in the metadata file",
+    "subhead": "Subhead entices the reader.",
+    "bylines": [
+      {
+        "name": "Carl Maroon",
+        "link": "https://www.chicagomaroon.com"
+      }
+    ]
+  },
+  "share": {
+    "fbook": {
+      "card_title": "hustling-2018",
+      "card_description": "The independent student newspaper of The University of Chicago since 1892."
+    },
+    "twitter": {
+      "card_title": "hustling-2018",
+      "share_tweet": "The independent student newspaper of The University of Chicago since 1892.",
+      "card_description": "The independent student newspaper of The University of Chicago since 1892.",
+      "author": "@chicagomaroon"
+    },
+    "image": {
+      "url": "https://projects.chicagomaroon.com/article/2018/hustling-2018/images/share.jpg",
+      "alt": "<Text>",
+      "type": "image/jpeg",
+      "width": "600",
+      "height": "300"
+    },
+    "keywords": "Maroon, Chicago, UChicago"
+  }
+}

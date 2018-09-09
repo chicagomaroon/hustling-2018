@@ -1,0 +1,26 @@
+<div class="article-card-carousel">
+    {% for article in section.articles %}
+    <div class="card">
+        {% if env == 'production' %}
+        <div class="card-img-top" style="background-image:url('images/{{ article.image | imageVersion(400) }}');">
+        </div>
+        {% else %}
+        <div class="card-img-top" style="background-image:url('../../images/{{ article.image }}');">
+        </div>
+        {% endif %}
+        <div class="card-body">
+            <h5 class="card-title"><a href="{{ article.link }}" target="_blank"><em>{{ article.hed }}</em></a></h5>
+            <h6 class="card-subtitle text-muted">
+                <span class="byline">
+                    By
+                    {% for byline in article.bylines %}
+                    {{ ", " if not loop.first and loop.index > 2 }}
+                    {{ " & " if loop.last and loop.index > 1 }}
+                    <span class="byline-name">{{ byline }}</span>
+                    {% endfor %}
+                </span>
+            </h6>
+        </div>
+    </div>
+    {% endfor %}
+</div>

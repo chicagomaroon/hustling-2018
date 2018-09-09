@@ -1,0 +1,49 @@
+/* Article Card Carousel */
+.article-card-carousel {
+    .slick-track {
+        display: flex;
+
+        .slick-slide {
+            display: flex;
+            height: auto;
+        }
+    }
+
+    .card {
+        border-radius: 0;
+        box-shadow: none;
+        border-color: $grey;
+        width: 15rem;
+        margin-left: 0.5rem;
+        margin-right: 0.5rem;
+
+        .card-title {
+            a {
+                color: $black;
+                :hover {
+
+                }
+            }
+        }
+
+        .card-img-top {
+            height: 12rem;
+            background-size: cover;
+            background-position: center;
+            border-radius: 0;
+        }
+
+        .byline {
+            font-weight: normal;
+            font-size: 0.7rem;
+            .byline-name {
+                font-weight: bold;
+                text-transform: uppercase;
+            }
+        }
+
+        p {
+            font-size: 0.8rem;
+        }
+    }
+}

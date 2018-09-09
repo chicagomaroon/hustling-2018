@@ -1,0 +1,7 @@
+{
+  "generator-maroon-projects": {
+    "promptValues": {
+      "lintProfile": "airbnb"
+    }
+  }
+}
