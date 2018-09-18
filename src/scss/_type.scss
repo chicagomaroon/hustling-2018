@@ -94,6 +94,10 @@ article {
 .btn {
     text-transform: uppercase;
     border-radius: 0px;
+
+    * {
+        font-weight: bold;
+    }
 }
 
 .blockcap {
