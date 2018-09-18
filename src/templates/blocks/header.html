@@ -1,4 +1,4 @@
-<div class="hero-header" style="background-image:url('images/landing_background.jpg');">
+<div class="hero-header" style="background-image:url({% if env == 'production' %}'images/{{ META.header.image | imageVersion(1800) }}'{% else %}'images/landing_background.jpg'{% endif %});">
   <header class="center">
     <!-- social icons -->
     <!--
@@ -17,13 +17,7 @@
       <p class="subhead no-widows">{{ ARCHIE.subhead }}</p>
       <br />
 
-    <div class="scroll-indicator"></div>
+      <div class="scroll-indicator"></div>
     </div>
-
-    {% if META.header.image %}
-    {% set section=META.header.image %}
-    {% include "sections/image.html" %}
-    {% endif %}
-
   </header>
 </div>

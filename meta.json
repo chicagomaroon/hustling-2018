@@ -8,12 +8,11 @@
   "header": {
     "headline": "This is your headline in the metadata file",
     "subhead": "Subhead entices the reader.",
-    "bylines": [
-      {
-        "name": "Carl Maroon",
-        "link": "https://www.chicagomaroon.com"
-      }
-    ]
+    "bylines": [{
+      "name": "Carl Maroon",
+      "link": "https://ww.chicagomaroon.com"
+    }],
+    "image": "landing_background.jpg"
   },
   "share": {
     "fbook": {
