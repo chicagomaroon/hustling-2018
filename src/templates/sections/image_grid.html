@@ -1,12 +1,14 @@
 <div class="image-grid">
-    {% for img in section.images %}
-    <div class="item">
-        {% if env == 'production' %}
-        <img src="images/{{ img | imageVersion(1800) }}" srcset="images/{{ img | imageVersion(400) }} 400w, images/{{ section.filename | imageVersion(800) }} 800w, images/{{ img | imageVersion(1200) }} 1200w, images/{{ img | imageVersion(1800) }} 1800w"
-            alt="{{ alt }}" class="img-fluid" />
-        {% else %}
-        <img src="../../images/{{ img }}" class="img-fluid" />
-        {% endif %}
+    <div class="image-grid-content">
+        {% for img in section.images %}
+        <div class="item">
+            {% if env == 'production' %}
+            <img src="images/{{ img | imageVersion(1800) }}" srcset="images/{{ img | imageVersion(400) }} 400w, images/{{ section.filename | imageVersion(800) }} 800w, images/{{ img | imageVersion(1200) }} 1200w, images/{{ img | imageVersion(1800) }} 1800w"
+                alt="{{ alt }}" class="img-fluid" />
+            {% else %}
+            <img src="../../images/{{ img }}" class="img-fluid" />
+            {% endif %}
+        </div>
+        {% endfor %}
     </div>
-    {% endfor %}
 </div>

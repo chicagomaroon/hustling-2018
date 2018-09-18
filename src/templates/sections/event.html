@@ -4,14 +4,12 @@
     <p class="mb-1">{{ section.description }}</p>
     {% endif %}
     <p>
-        <small>
             <span class="mr-2"><i class="far fa-calendar-alt"></i></span>
             {{ section.date }}, {{ section.time }}
-        </small>
-        <small class="d-block">
+        <span class="d-block">
             <span class="mr-2"><i class="fas fa-map-marker-alt"></i></span>
             {{ section.location }}
-        </small>
+        </span>
     </p>
     {% if section.calendar_link %}
     <a href="{{ section.calendar_link }}" class="btn btn-primary btn-sm" target="_blank">

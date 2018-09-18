@@ -16,6 +16,11 @@ window.$('.icon-twitter').click((e) => {
 });
 */
 
+// smooth scrolling to anchor without changing url
+function goToByScroll(id){
+  $('html,body').animate({scrollTop: $("#"+id).offset().top},'slow');
+}
+
 // prevent widows
 // let widowElements = [].slice.call(document.getElementsByClassName('no-widows'));
 let elements = document.querySelectorAll('.no-widows');

@@ -13,21 +13,13 @@
     <li class="nav-item hidden-xs"><a class="nav-link nav-social-icon" href="https://www.chicagomaroon.com/pages/donate"><i class="fab fa-twitter-square"></i></a></li>
     -->
     <li class="nav-item d-block d-sm-none">
-      <button class="btn btn-outline-dark" data-toggle="modal" data-target="#shareModal"><i class="fas fa-share-square"></i></button>
-    </li>
-     <li class="nav-item d-none d-sm-block">
-      <a class="btn" href="https://www.facebook.com/sharer/sharer.php?u={{ META.url | urlencode }}">
-        <i class="fab fa-facebook-f"></i>
+      <a class="btn btn-outline-dark" onClick="document.getElementById('apply-header').scrollIntoView(true);">
+        <i class="far fa-check-circle"></i>
       </a>
     </li>
-    <li class="nav-item d-none d-sm-block">
-      <a class="btn" href="https://twitter.com/intent/tweet?url={{ META.url | urlencode }}&amp;via=chicagomaroon&amp;text={{META.share.twitter.share_tweet | urlencode}}">
-        <i class="fab fa-twitter"></i>
-      </a>
-    </li>
-    <li class="nav-item d-none d-sm-block">
-      <a class="btn" href="https://www.linkedin.com/shareArticle?mini=true&url={{ META.url | urlencode }}">
-        <i class="fab fa-linkedin-in"></i>
+    <li class="nav-item d-sm-block d-none">
+      <a class="btn btn-outline-dark" onClick="document.getElementById('apply-header').scrollIntoView(true);">
+        <i class="far fa-check-circle"></i>&nbsp;&nbsp;Apply
       </a>
     </li>
   </ul>
