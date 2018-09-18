@@ -17,9 +17,12 @@ window.$('.icon-twitter').click((e) => {
 */
 
 // smooth scrolling to anchor without changing url
-function goToByScroll(id){
-  $('html,body').animate({scrollTop: $("#"+id).offset().top},'slow');
-}
+$('.anchor-link').click(function () {
+  let divId = $(this).attr('dest');
+  $('html, body').animate({
+    scrollTop: $(divId).offset().top - 70
+  }, 1000);
+});
 
 // prevent widows
 // let widowElements = [].slice.call(document.getElementsByClassName('no-widows'));
@@ -48,11 +51,11 @@ $(document).ready(function () {
     prevArrow: false,
     speed: 1500,
     responsive: [{
-      breakpoint: 1800,
-      settings: {
-        slidesToShow: 4,
-      }
-    },{
+        breakpoint: 1800,
+        settings: {
+          slidesToShow: 4,
+        }
+      }, {
         breakpoint: 1400,
         settings: {
           slidesToShow: 3,
