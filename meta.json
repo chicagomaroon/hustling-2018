@@ -1,32 +1,32 @@
 {
   "id": "7834236416",
-  "publishPath": "article/2018/hustling-2018/",
-  "stagingUrl": "https://stage-projects.chicagomaroon.com/article/2018/hustling-2018/",
-  "url": "https://projects.chicagomaroon.com/article/2018/hustling-2018/",
+  "publishPath": "hustling/2018/",
+  "stagingUrl": "http://stage-projects.chicagomaroon.com/hustling/2018/",
+  "url": "https://projects.chicagomaroon.com/hustling/2018/",
   "timestamp": "1996-09-06T08:13-0400",
   "dateline": "September 6, 1996",
   "header": {
-    "headline": "This is your headline in the metadata file",
-    "subhead": "Subhead entices the reader.",
+    "headline": "Hustling 2018",
+    "subhead": "Join a passionate community of journalists, photographers, business people, digital specialists, and designers.",
     "bylines": [{
-      "name": "Carl Maroon",
-      "link": "https://ww.chicagomaroon.com"
+      "name": "The Chicago Maroon",
+      "link": "https://www.chicagomaroon.com"
     }],
-    "image": "landing_background.jpg"
+    "image": "hustling_image.jpg"
   },
   "share": {
     "fbook": {
-      "card_title": "hustling-2018",
-      "card_description": "The independent student newspaper of The University of Chicago since 1892."
+      "card_title": "Hustle The Maroon: How to Join UChicago's Student Newspaper",
+      "card_description": "Join a passionate community of journalists, photographers, business people, digital specialists, and designers."
     },
     "twitter": {
-      "card_title": "hustling-2018",
+      "card_title": "Hustle The Maroon: How to Join UChicago's Student Newspaper",
       "share_tweet": "The independent student newspaper of The University of Chicago since 1892.",
-      "card_description": "The independent student newspaper of The University of Chicago since 1892.",
+      "card_description": "Join a passionate community of journalists, photographers, business people, digital specialists, and designers.",
       "author": "@chicagomaroon"
     },
     "image": {
-      "url": "https://projects.chicagomaroon.com/article/2018/hustling-2018/images/share.jpg",
+      "url": "https://projects.chicagomaroon.com/hustling/2018/images/sm_card-800.jpg",
       "alt": "<Text>",
       "type": "image/jpeg",
       "width": "600",
